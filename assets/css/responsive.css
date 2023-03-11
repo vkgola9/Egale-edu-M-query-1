@@ -261,7 +261,7 @@
 
     header .mobile-menu {
         position: absolute;
-        background: #eeeeee;
+        background: #fff;
         left: 0;
         right: 0;
         top: 75.15px;
@@ -269,6 +269,7 @@
         transform: translateY(-200%);
         display: block;
         transition: 700ms ease-in-out;
+        z-index: 20;
     }
 
     .nav-bar-left ul li {
@@ -510,6 +511,42 @@
     .right {
         width: 24%;
     }
+
+
+    /* request-page */
+    /* request-page */
+    h4 {
+        font-size: 18px;
+    }
+
+    .for-request {
+        padding: 60px 30px;
+    }
+
+    form input {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .request-center {
+        display: inline-block;
+        padding: 50px 0 0 0;
+    }
+
+    .request-left {
+        width: auto;
+    }
+
+    .request-right {
+        width: auto;
+        margin: 50px 0 0 0;
+    }
+
+    .request-right form :nth-child(7) {
+        width: auto;
+        font-size: 12px;
+        padding: 7px 19px;
+    }
 }
 
 /* /* --------------------------------------------------------------------------------max-width:576-------------------------------------------- */
@@ -545,8 +582,7 @@
 
     .participation-left {
         width: auto;
-        text-align: center;
-        margin: 15px 0 0 0;
+        margin: 15px 0 0 22px;
     }
 
     .participation-rght {
@@ -726,26 +762,39 @@
     }
 }
 
-/* /* --------------------------------------------------------------------------------min-width:575-------------------------------------------- */
+/* /* --------------------------------------------------------------------------------min-width:475-------------------------------------------- */
 @media screen and (max-width:475.99px) {
     .container {
         width: auto;
-        /* padding: 8%; */
+    }
+
+    .request-right form :nth-child(2) {
+        width: 100%;
+    }
+
+    .request-right form :nth-child(3) {
+        width: 100%;
+        margin-top: 20px;
     }
 
     .menuIcon {
         right: 5%;
     }
 
+    .updates-one {
+        width: 100%;
+    }
+
     .eduction ul {
-        width: 77%;
+        width: 97%;
     }
 
     .left ul {
-        width: 95%;
+        width: calc(100% - 10px);
     }
 
     .right {
         width: 26%;
     }
+
 }
