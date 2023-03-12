@@ -98,11 +98,6 @@ a {
     text-decoration: none;
 }
 
-a:link,
-a:visited {
-    color: #eeeeee;
-}
-
 ul li {
     list-style-type: none;
 }
@@ -212,6 +207,11 @@ header.sticky {
 .nav-bar ul li a:hover,
 .nav-bar ul li a:active {
     color: #e300ff;
+}
+
+.mobile-menu ul li a:link,
+.mobile-menu ul li a:visited {
+    color: #333;
 }
 
 .nav-bar-right ul {

@@ -28,6 +28,15 @@
     .client-two-container-logo img {
         height: 100px;
     }
+
+    .contact-right form input:nth-child(2) {
+        width: 100%;
+        margin: 0 0 12px;
+    }
+
+    .contact-right form input:nth-child(3) {
+        width: 100%;
+    }
 }
 
 /* /* --------------------------------------------------------------------------------max-width:991-------------------------------------------- */
@@ -170,6 +179,28 @@
     .footer-ul-one ul li:nth-child(1) {
         font-size: 16px;
     }
+
+    /* requset */
+    /* requset */
+    .request-right form :nth-child(2) {
+        width: 100%;
+    }
+
+    .request-right form :nth-child(3) {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .request-right h4 {
+        font-size: 17px;
+    }
+
+    /* .contact- */
+    /* .contact- */
+    .contact-right h4 {
+        font-size: 17px;
+    }
+
 }
 
 /* /* --------------------------------------------------------------------------------max-width:767-------------------------------------------- */
@@ -294,7 +325,8 @@
         display: block;
         color: #000;
         text-align: center;
-        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #000;
+        border-radius: 10px;
     }
 
     header .mobile-menu ul li a:hover {
@@ -535,7 +567,9 @@
 
     .request-left {
         width: auto;
+        padding: 0 0px 0 0;
     }
+
 
     .request-right {
         width: auto;
@@ -543,6 +577,42 @@
     }
 
     .request-right form :nth-child(7) {
+        width: auto;
+        font-size: 12px;
+        padding: 7px 19px;
+    }
+
+    .for-request p {
+        text-align: justify;
+    }
+
+    /* .contact- */
+    /* .contact- */
+    .contact {
+        padding: 0 50px;
+    }
+
+    .for-contact h2 {
+        margin: 12px 0 0;
+        font-size: 24px;
+    }
+
+    .contact-center {
+        display: inline;
+        padding: 0;
+    }
+
+    .contact-left {
+        width: 100%;
+        padding: 20px 0px 0 0;
+    }
+
+    .contact-right {
+        width: 100%;
+        padding: 80px 0px 0 0;
+    }
+
+    .contact-right form input:nth-child(10) {
         width: auto;
         font-size: 12px;
         padding: 7px 19px;
@@ -760,6 +830,17 @@
         font-size: 14px;
         padding: 7px;
     }
+
+    /* contact */
+    /* contact */
+    .contact-right h4 {
+        font-size: 14px;
+    }
+
+    textarea {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
 }
 
 /* /* --------------------------------------------------------------------------------min-width:475-------------------------------------------- */
@@ -797,4 +878,18 @@
         width: 26%;
     }
 
+    /* contact */
+    /* contact */
+    .for-contact {
+        padding: 50px 0 90px;
+    }
+
+    .fa-right {
+        width: 35%;
+    }
+
+    .fa-right a {
+        padding: 2px;
+        font-size: 12px;
+    }
 }
