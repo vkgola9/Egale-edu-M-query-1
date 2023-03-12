@@ -931,7 +931,7 @@
     }
 
     .eduction ul {
-        width: 97%;
+        width: 90%;
     }
 
     .left ul {
@@ -959,6 +959,10 @@
 
     /* solution */
     /* solution */
+    h4 {
+        font-size: 15px;
+    }
+
     .solution {
         display: inline;
     }

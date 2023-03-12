@@ -352,6 +352,7 @@ header.sticky {
 
 .parti-right-leftImg img {
     max-width: 35px;
+    object-fit: inherit;
 }
 
 .parti-right-leftImg {
